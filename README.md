@@ -1,5 +1,5 @@
-# Phosphortron
-Eric Souther and Laura McGough, 2019
+# Phosphortron Eric 
+# Souther and Laura McGough, 2019
 ![Phosphortron](https://user-images.githubusercontent.com/6496795/57551611-7da6f500-7337-11e9-8b81-c5f11f6e1225.png)
 
 Phosphortron is a video instrument that simulates the phosphor trails found in analog cathode ray tube (CRT) oscilloscopes and television monitors.The instrument uses a computer vision technique called frame difference, which compares the current frame versus the previous frame and analyzes change based on a threshold pixel by pixel. The trail duration function controls how long previous information stays on screen before fading away the simulated phosphors. Edge detection is utilized in conjunction with frame difference, to isolate and accentuate the outlines to loosen the raster image towards the simulated aesthetics of vector drawing.
