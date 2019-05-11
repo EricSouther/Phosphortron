@@ -7,6 +7,7 @@ In CRT monitors, a cathode-ray tube which contains one or more electron guns dir
 Phosphortron emulates the phosphors being activated on a CRT screen, highlighting its materiality through an exaggerated decay rate. As images move across the screen, layers of phosphor trails partake in a neon green dance, past and present merge and converge, slowly disintegrating over time.
 
 Mac Build: https://www.dropbox.com/s/egyknqgwfl8f2ww/Phosphortron.app.zip?dl=0
+PC Build: https://www.dropbox.com/s/w9dalqup72o4krs/Phosphortron%20PC.zip?dl=0
 
 Attribution-NonCommercial-ShareAlike CC BY-NC-SA
 Eric Souther and Laura McGough, 2019.
