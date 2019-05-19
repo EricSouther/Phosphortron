@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 42.0, 1536.0, 782.0 ],
+		"rect" : [ 256.0, 45.0, 646.0, 404.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -189,9 +189,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 1078.333364009857178, 1021.666683554649353, 356.0, 22.0 ],
 					"text" : "jit.gl.spoutsender phosphortron_spout @sendername maxSender"
 				}
@@ -481,7 +480,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 908.0, 48.0, 596.0, 534.0 ],
+						"rect" : [ 903.0, 45.0, 596.0, 475.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 11.595186999999999,
@@ -534,7 +533,7 @@
 									"patching_rect" : [ 12.978260040283203, 479.0, 203.0, 106.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 18.978260040283203, 471.0, 560.0, 49.0 ],
+									"presentation_rect" : [ 18.978260040283203, 410.0, 560.0, 49.0 ],
 									"text" : "\nThis license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -549,10 +548,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 121.978260040283203, 112.081680297851563, 202.0, 49.0 ],
+									"patching_rect" : [ 121.978260040283203, 112.081680297851562, 202.0, 49.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 122.978260040283203, 445.0, 456.0, 35.0 ],
+									"presentation_rect" : [ 122.978260040283203, 384.0, 456.0, 35.0 ],
 									"text" : "Attribution-NonCommercial-ShareAlike \nCC BY-NC-SA",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -570,7 +569,7 @@
 									"patching_rect" : [ 467.0, 505.0, 100.0, 35.227272727272727 ],
 									"pic" : "88x31.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 18.978260040283203, 445.0, 100.0, 35.227272727272727 ]
+									"presentation_rect" : [ 18.978260040283203, 384.0, 100.0, 35.227272727272727 ]
 								}
 
 							}
@@ -612,15 +611,15 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.699999999999999,
 									"id" : "obj-3",
-									"linecount" : 61,
+									"linecount" : 48,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.5, 37.0, 221.0, 886.0 ],
+									"patching_rect" : [ 36.5, 37.0, 225.0, 688.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 25,
-									"presentation_rect" : [ 18.978260040283203, 79.081680297851563, 562.0, 375.0 ],
-									"text" : "Phosphortron is a video instrument that emulates the phosphor trails found in analog cathode ray tube (CRT) oscilloscopes and television monitors. The instrument uses a computer vision technique called frame difference, which compares the current frame versus the previous frame and analyzes change based on a threshold pixel by pixel. The trail duration function controls how long previous information stays on screen before fading away the simulated phosphors. Edge detection is utilized in conjunction with frame difference, to isolate and accentuate the outlines to loosen the raster image towards the simulated aesthetics of vector drawing.\n\nIn CRT monitors, a cathode-ray tube which contains one or more electron guns directs electron beams onto a phosphor-coated screen. The phosphors illuminate, or glow, when excited by the electron particles. In CRT oscilloscopes, like those used for radar or medical imaging, the illumination undergoes a slow decay and continues to glow long after the electrons have excited the phosphor coating. Conversely, in CRT television and videogame screens the decay rate is much shorter, as images more quickly replace one another. Prior to the advent of shadow masks applied to CRT televisions after 1982 to that there‚Äö√Ñ√¥s nothing to mark off one phosphor from the next, so as you illuminate one phosphor, and you have one unilluminated next to it, the illuminated one is going to flood, and smear, as it were, just a tiny bit, because we‚Äö√Ñ√¥re talking about molecules, but they do soften across the screen\n\nWith Phosphortron, users can emulate a range different responses. The decay rate can be exaggerated by increasing the trail rate, while the flood and smear that CRT monitors exhibited before the advent of shadow-masks can be amplified by decreasing the line threshold. Phosphortron also contains syphon integration which allows it to play well with other software including the Signal Culture apps and Lumen.\n\n",
+									"presentation_linecount" : 20,
+									"presentation_rect" : [ 18.978260040283203, 85.081680297851562, 565.0, 290.0 ],
+									"text" : "Phosphortron is a video instrument that emulates the phosphor trails found in analog cathode ray tube (CRT) oscilloscopes and television monitors. The instrument uses a computer vision technique called frame difference, which compares the current frame versus the previous frame and analyzes change based on a threshold pixel by pixel. The trail duration function controls how long previous information stays on screen before fading away the simulated phosphors. Edge detection is utilized in conjunction with frame difference, to isolate and accentuate the outlines to loosen the raster image towards the simulated aesthetics of vector drawing.\n\nIn CRT monitors, a cathode-ray tube which contains one or more electron guns directs electron beams onto a phosphor-coated screen. The phosphors illuminate, or glow, when excited by the electron particles. In CRT oscilloscopes, like those used for radar or medical imaging, the illumination undergoes a slow decay and continues to glow long after the electrons have excited the phosphor coating. Conversely, in CRT television and videogame screens the decay rate is much shorter, as images more quickly replace one another.\n\nWith Phosphortron, users can emulate a range different responses. The decay rate can be exaggerated by increasing the trail rate, while the flood and smear that CRT monitors exhibited before the advent of shadow-masks can be amplified by decreasing the line threshold. Phosphortron also contains syphon integration which allows it to play well with other software including the Signal Culture apps and Lumen.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -702,8 +701,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 642.61886417111964, 900.334602629394567, 104.0, 79.0 ],
-					"text" : "File menu items (except Close, Midi Setup‚Äö√Ñ¬∂, Max Menus, and Quit)"
+					"patching_rect" : [ 642.61886417111964, 900.334602629394567, 120.0, 79.0 ],
+					"text" : "File menu items (except Close, Midi Setup‚Äö√Ñ√∂‚àö√ë¬¨‚àÇ, Max Menus, and Quit)"
 				}
 
 			}
@@ -911,7 +910,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-89",
-					"items" : [ "MJPG [1280 x 720]", ",", "Åç [0 x 16]", ",", "MJPG [848 x 480]", ",", "Åç [0 x 53]", ",", "MJPG [960 x 540]", ",", "Åç [0 x 16]", ",", "MJPG [1920 x 1080]", ",", "Åç [0 x 16]", ",", "YUY2 [640 x 480]", ",", "Å%ç [0 x 4]", ",", "YUY2 [160 x 120]", ",", "Å%ç [0 x 4]", ",", "YUY2 [320 x 180]", ",", "Å%ç [0 x 16]", ",", "YUY2 [320 x 240]", ",", "Å%ç [0 x 4]", ",", "YUY2 [424 x 240]", ",", "Å%ç [0 x 53]", ",", "YUY2 [640 x 360]", ",", "Å%ç [0 x 16]" ],
+					"items" : [ "Y'CbCr 4:2:2 - uyvy - 160 x 120", ",", "Y'CbCr 4:2:2 - uyvy - 176 x 144", ",", "Y'CbCr 4:2:2 - uyvy - 320 x 240", ",", "Y'CbCr 4:2:2 - uyvy - 352 x 288", ",", "Y'CbCr 4:2:2 - uyvy - 480 x 360", ",", "Y'CbCr 4:2:2 - uyvy - 640 x 480", ",", "Y'CbCr 4:2:2 - uyvy - 960 x 544", ",", "Y'CbCr 4:2:2 - uyvy - 1024 x 576", ",", "Y'CbCr 4:2:2 - uyvy - 960 x 720", ",", "Y'CbCr 4:2:2 - uyvy - 1280 x 720" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1255,7 +1254,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-94",
-					"items" : "Integrated Webcam",
+					"items" : "FaceTime HD Camera (Built-in)",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1512,11 +1511,11 @@
 					"presentation_rect" : [ 265.40533447265625, 348.478667259216309, 94.834190368652344, 32.329837799072266 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[2]",
-							"parameter_mmax" : 1
+							"parameter_longname" : "live.text[2]"
 						}
 
 					}
@@ -1675,11 +1674,11 @@
 					"presentation_rect" : [ 22.978260040283203, 301.769866943359375, 94.834190368652344, 32.329837799072266 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[1]",
-							"parameter_mmax" : 1
+							"parameter_longname" : "live.text[1]"
 						}
 
 					}
@@ -1881,11 +1880,11 @@
 					"presentation_rect" : [ 22.978260040283203, 86.811126708984375, 94.834190368652344, 32.329837799072266 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1
+							"parameter_longname" : "live.text"
 						}
 
 					}
@@ -3739,8 +3738,8 @@
  ],
 		"parameters" : 		{
 			"obj-65" : [ "live.text[2]", "live.text", 0 ],
-			"obj-38" : [ "live.text", "live.text", 0 ],
 			"obj-64" : [ "live.text[1]", "live.text", 0 ],
+			"obj-38" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -3753,14 +3752,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "jit.gl.spoutsender.mxe64",
-				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,

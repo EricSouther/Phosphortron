@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 257.0, 45.0, 645.0, 399.0 ],
+		"rect" : [ 256.0, 47.0, 646.0, 400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -221,7 +221,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 909.0, 45.0, 596.0, 534.0 ],
+						"rect" : [ 908.0, 48.0, 596.0, 476.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 11.595186999999999,
@@ -274,7 +274,7 @@
 									"patching_rect" : [ 12.978260040283203, 479.0, 203.0, 106.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 18.978260040283203, 471.0, 560.0, 49.0 ],
+									"presentation_rect" : [ 18.978260040283203, 410.0, 560.0, 49.0 ],
 									"text" : "\nThis license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -292,7 +292,7 @@
 									"patching_rect" : [ 121.978260040283203, 112.081680297851562, 202.0, 49.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 122.978260040283203, 445.0, 456.0, 35.0 ],
+									"presentation_rect" : [ 122.978260040283203, 384.0, 456.0, 35.0 ],
 									"text" : "Attribution-NonCommercial-ShareAlike \nCC BY-NC-SA",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -308,9 +308,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 467.0, 505.0, 100.0, 35.227272727272727 ],
-									"pic" : "/Users/ericsouther/Desktop/88x31.png",
+									"pic" : "88x31.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 18.978260040283203, 445.0, 100.0, 35.227272727272727 ]
+									"presentation_rect" : [ 18.978260040283203, 384.0, 100.0, 35.227272727272727 ]
 								}
 
 							}
@@ -352,15 +352,15 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.699999999999999,
 									"id" : "obj-3",
-									"linecount" : 63,
+									"linecount" : 49,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.5, 37.0, 213.0, 915.0 ],
+									"patching_rect" : [ 36.5, 37.0, 221.0, 702.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 25,
-									"presentation_rect" : [ 18.978260040283203, 79.081680297851562, 562.0, 375.0 ],
-									"text" : "Phosphortron is a video instrument that emulates the phosphor trails found in analog cathode ray tube (CRT) oscilloscopes and television monitors. The instrument uses a computer vision technique called frame difference, which compares the current frame versus the previous frame and analyzes change based on a threshold pixel by pixel. The trail duration function controls how long previous information stays on screen before fading away the simulated phosphors. Edge detection is utilized in conjunction with frame difference, to isolate and accentuate the outlines to loosen the raster image towards the simulated aesthetics of vector drawing.\n\nIn CRT monitors, a cathode-ray tube which contains one or more electron guns directs electron beams onto a phosphor-coated screen. The phosphors illuminate, or glow, when excited by the electron particles. In CRT oscilloscopes, like those used for radar or medical imaging, the illumination undergoes a slow decay and continues to glow long after the electrons have excited the phosphor coating. Conversely, in CRT television and videogame screens the decay rate is much shorter, as images more quickly replace one another. Prior to the advent of shadow masks applied to CRT televisions after 1982 to that there’s nothing to mark off one phosphor from the next, so as you illuminate one phosphor, and you have one unilluminated next to it, the illuminated one is going to flood, and smear, as it were, just a tiny bit, because we’re talking about molecules, but they do soften across the screen\n\nWith Phosphortron, users can emulate a range different responses. The decay rate can be exaggerated by increasing the trail rate, while the flood and smear that CRT monitors exhibited before the advent of shadow-masks can be amplified by decreasing the line threshold. Phosphortron also contains syphon integration which allows it to play well with other software including the Signal Culture apps and Lumen.\n\n",
+									"presentation_linecount" : 20,
+									"presentation_rect" : [ 18.978260040283203, 87.081680297851562, 562.0, 290.0 ],
+									"text" : "Phosphortron is a video instrument that emulates the phosphor trails found in analog cathode ray tube (CRT) oscilloscopes and television monitors. The instrument uses a computer vision technique called frame difference, which compares the current frame versus the previous frame and analyzes change based on a threshold pixel by pixel. The trail duration function controls how long previous information stays on screen before fading away the simulated phosphors. Edge detection is utilized in conjunction with frame difference, to isolate and accentuate the outlines to loosen the raster image towards the simulated aesthetics of vector drawing.\n\nIn CRT monitors, a cathode-ray tube which contains one or more electron guns directs electron beams onto a phosphor-coated screen. The phosphors illuminate, or glow, when excited by the electron particles. In CRT oscilloscopes, like those used for radar or medical imaging, the illumination undergoes a slow decay and continues to glow long after the electrons have excited the phosphor coating. Conversely, in CRT television and videogame screens the decay rate is much shorter, as images more quickly replace one another.\n\nWith Phosphortron, users can emulate a range different responses. The decay rate can be exaggerated by increasing the trail rate, while the flood and smear that CRT monitors exhibited before the advent of shadow-masks can be amplified by decreasing the line threshold. Phosphortron also contains syphon integration which allows it to play well with other software including the Signal Culture apps and Lumen.",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -443,7 +443,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 642.61886417111964, 900.334602629394567, 104.0, 79.0 ],
-					"text" : "File menu items (except Close, Midi Setup…, Max Menus, and Quit)"
+					"text" : "File menu items (except Close, Midi Setup‚Ä¶, Max Menus, and Quit)"
 				}
 
 			}
@@ -1276,11 +1276,11 @@
 					"presentation_rect" : [ 265.40533447265625, 347.146207809448242, 94.834190368652344, 32.329837799072266 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "val1", "val2" ]
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1439,11 +1439,11 @@
 					"presentation_rect" : [ 22.978260040283203, 301.769866943359375, 94.834190368652344, 32.329837799072266 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "val1", "val2" ]
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1645,11 +1645,11 @@
 					"presentation_rect" : [ 22.978260040283203, 86.811126708984375, 94.834190368652344, 32.329837799072266 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 2,
 							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
-							"parameter_enum" : [ "val1", "val2" ]
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -3701,9 +3701,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-38" : [ "live.text", "live.text", 0 ],
 			"obj-65" : [ "live.text[2]", "live.text", 0 ],
 			"obj-64" : [ "live.text[1]", "live.text", 0 ],
-			"obj-38" : [ "live.text", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -3712,7 +3712,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "88x31.png",
-				"bootpath" : "~/Desktop",
+				"bootpath" : "~/Dropbox/Projects/Phosphortron",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
